@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Armory</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <section>
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+          <div class="container-fluid">
+            <section id="logo">
+              <div class="h3">
+                <a class="text-white text-decoration-none" href="index.html"
+                  ><img
+                    src="imagenes/logo.png"
+                    alt="logo"
+                    width="80"
+                    height="50"
+                  />Armory</a
+                >
+              </div>
+            </section>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarDark"
+              aria-controls="navbarDark"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse show" id="navbarDark">
+              <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/producto.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/marca.html">Sponsor</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/contacto.html">Contactanos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/carrito.html">Carrito</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"></a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-3"
+                  type="search"
+                  placeholder="buscar"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-light" type="submit">
+                  buscar
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active d-item">
+          <img
+            src="imagenes/gym1.jpg"
+            class="d-block w-100 d-img"
+            alt="slider 1"
+          />
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 tetx-uppercase">Descubre una vida Fitness</p>
+          </div>
+        </div>
+        <div class="carousel-item d-item">
+          <img
+            src="imagenes/gym2.jpg"
+            class="d-block w-100 d-img"
+            alt="slider 1"
+          />
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 tetx-uppercase">Saca tu poder interior</p>
+          </div>
+        </div>
+        <div class="carousel-item d-item">
+          <img
+            src="imagenes/gym3.webp"
+            class="d-block w-100 d-img"
+            alt="slider 1"
+          />
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 tetx-uppercase">Junto a nosotros</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+    <section class="Descuentos">
+      <h2 class="h2">
+        <p class="text-center display-6">Descuentos!!</p>
+      </h2>
+    </section>
+    <main class="container">
+      <section class="row">
+        <div class="col-md-3 col-6 mt-3">
+          <div class="card">
+            <img
+              src="imagenes/proteina1.jpg"
+              class="card-img-top"
+              alt="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">$000000</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+              <a href="pages/producto.html" class="btn btn-primary">Carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-3">
+          <div class="card">
+            <img
+              src="imagenes/proteina1.jpg"
+              class="card-img-top"
+              alt="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">$000000</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+              <a href="pages/producto.html" class="btn btn-primary">Carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-md-6 mt-3">
+          <div class="ratio ratio-16x9">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/DptXlw8ex9U"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <section class="ventajas">
+            <h2>
+              <p class="text-center">Creatina VS Proteina</p>
+            </h2>
+          </section>
+        </div>
+      </section>
+    </main>
+    <hr />
+    <section id="cuerpo-video">
+      <h2>
+        <p class="text-center text-white">Cbum x Raw PreWorkout!!</p>
+      </h2>
+      <section class="container">
+        <div class="row justify-content-center pb-4">
+          <div class="col-md-9">
+            <div class="ratio ratio-16x9">
+              <iframe
+                class="border border-5 border-dark"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/poC8-CLSpp0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <footer>
+      <div class="container-fluid">
+        <div class="row p-5 bg-dark text-white">
+          <div class="col-md-12 col-lg-3">
+            <div class="h3">
+              <a class="text-white text-decoration-none" href="index.html"
+                ><img
+                  src="imagenes/logo.png"
+                  alt="logo"
+                  width="80"
+                  height="50"
+                />Armory</a
+              >
+              <p class="text-secondary">Argentina-Entre Rios</p>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-3">
+            <p class="h5 mb-3">Enlaces</p>
+            <div class="mb-3">
+              <a class="text-secondary text-decoration-none" href="index.html"
+                >Inicio</a
+              >
+            </div>
+            <div class="mb-3">
+              <a
+                class="text-secondary text-decoration-none"
+                href="pages/producto.html"
+                >Productos</a
+              >
+            </div>
+            <div class="mb-3">
+              <a
+                class="text-secondary text-decoration-none"
+                href="pages/marca.html"
+                >Sponsor</a
+              >
+            </div>
+            <div class="mb-3">
+              <a
+                class="text-secondary text-decoration-none"
+                href="pages/contacto.html"
+                >Contactos</a
+              >
+            </div>
+            <div class="mb-0">
+              <a
+                class="text-secondary text-decoration-none"
+                href="pages/carrito.html"
+                >Carrito</a
+              >
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-3">
+            <p class="h5 mb-3">Link</p>
+            <div class="mb-3">
+              <a
+                class="text-secondary text-decoration-none"
+                href="https://www.instagram.com/?next="
+                >Instagram</a
+              >
+            </div>
+            <div class="mb-3">
+              <a
+                class="text-secondary text-decoration-none"
+                href="https://www.facebook.com"
+                >Facebook</a
+              >
+            </div>
+            <div class="mb-3">
+              <a
+                class="text-secondary text-decoration-none"
+                href="https://twitter.com/?lang=es"
+                >Twitter</a
+              >
+            </div>
+          </div>
+          <div class="container">
+            <div class="row pt-3">
+              <div class="col-12">
+                <p class="text-secondary">© Copyright - 2023 - Armory -</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- javascript ultimo-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- javascript ultimo-->
+  </body>
+</html>
