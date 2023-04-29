@@ -1,0 +1,12 @@
+{
+  "name": "preentrega3-moreyra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:style"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
