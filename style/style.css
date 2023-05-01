@@ -1,9 +1,16 @@
-.f-img {
-  height: 150px;
-  width: 170px;
-  padding: 10px;
+/* carrusel index */
+.d-item {
+  height: 650px;
 }
 
+.d-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+  align-items: center;
+}
+
+/* carrusel pagina sponsors */
 .x-item {
   height: 650px;
 }
@@ -15,10 +22,7 @@
   align-items: center;
 }
 
-.p-item {
-  height: 650px;
-}
-
+/* Imagenes en pagina de contacto */
 .p-img {
   height: 100%;
   object-fit: cover;
@@ -26,21 +30,22 @@
   align-items: center;
 }
 
+.p-item {
+  height: 650px;
+}
+
+/* imagenes pagina carrito */
 .c-img {
   height: 150px;
   width: 170px;
   padding: 10px;
 }
 
-.d-item {
-  height: 550px;
-}
-
-.d-img {
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(0.6);
-  align-items: center;
+/* imagenes pagina Producto */
+.f-img {
+  height: 150px;
+  width: 170px;
+  padding: 10px;
 }
 
 body {
@@ -75,6 +80,10 @@ header {
 
 footer {
   background-color: rgb(0, 0, 0);
+}
+
+#titulos {
+  background-color: rgb(57, 57, 57);
 }
 
 /*# sourceMappingURL=style.css.map */
